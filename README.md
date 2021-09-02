@@ -1,11 +1,6 @@
 # sort-Algorthm
 # 排序算法
 
-
-This just for test. 
-
-test 2.
-
 ### TopK问题
 
 - 堆排序思想解决
