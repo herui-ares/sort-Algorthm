@@ -21,6 +21,13 @@ test 2.
 
 
 
+
+
+![bubblesort](https://github.com/herui-ares/sort-Algorthm/blob/main/pictures/bubblesort.gif)
+
+
+
+
 ```c++
 vector<int> sortSolution::bubbleSort(vector<int>& arr) {
     int n = arr.size();
@@ -47,7 +54,7 @@ vector<int> sortSolution::bubbleSort(vector<int>& arr) {
 
 每一趟选出一个最小值，放到前面
 时间复杂度：o(n^2)
-
+https://github.com/herui-ares/sort-Algorthm/blob/main/pictures/slectsort.gif
 ```c++
 vector<int> sortSolution::selectSort(vector<int>& arr) {
     int n = arr.size();
@@ -75,7 +82,7 @@ vector<int> sortSolution::selectSort(vector<int>& arr) {
 不断地从后面选一个数，然后插入到前面已经有序的序列里；
 
 时间复杂度：o(n^2)
-
+https://github.com/herui-ares/sort-Algorthm/blob/main/pictures/insertionsort.gif
 ```c++
 vector<int> sortSolution::insertSort(vector<int>& arr) {
     int n = arr.size();
@@ -129,7 +136,7 @@ vector<int> sortSolution::shelleSort(vector<int>& arr) {
 ### 快速排序
 
 指定第一个数为mid_value,排序使得mid_value左边的数比mid_value小，右边的数比mid_value大，然后分别对左边和右边进行递归排序。
-
+https://github.com/herui-ares/sort-Algorthm/blob/main/pictures/quicksort.gif
 ```c++
 class Solution {
 public:
@@ -167,7 +174,7 @@ void sortSolution::quickSort(vector<int>& arr, int start, int end) {
 拆分到单个元素，然后两个两个往上进行递归合并。设置left 和right两个游标,进行合并。
 
 时间复杂度：o(nlogn)
-
+https://github.com/herui-ares/sort-Algorthm/blob/main/pictures/mergesort.gif
 ```c++
 class Solution {
 public:
@@ -208,7 +215,7 @@ void sortSolution::mergeSort(vector<int>& arr, int left, int right) {
 
 构造堆：从小堆到大堆，先看最后一个非叶子节点，从下往上
 时间复杂度 ： o(nlogn)
-
+https://github.com/herui-ares/sort-Algorthm/blob/main/pictures/heapsort.gif
 
 
 ```c++
