@@ -46,7 +46,7 @@ vector<int> sortSolution::bubbleSort(vector<int>& arr) {
 }
 ```
 
-![](D:\钟政恰饭资料\bubblesort.gif)
+
 
 
 
@@ -54,7 +54,9 @@ vector<int> sortSolution::bubbleSort(vector<int>& arr) {
 
 每一趟选出一个最小值，放到前面
 时间复杂度：o(n^2)
-https://github.com/herui-ares/sort-Algorthm/blob/main/pictures/slectsort.gif
+
+![](https://github.com/herui-ares/sort-Algorthm/blob/main/pictures/slectsort.gif)
+
 ```c++
 vector<int> sortSolution::selectSort(vector<int>& arr) {
     int n = arr.size();
